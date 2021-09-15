@@ -1,5 +1,7 @@
 # debezium-sqlserver-jtds-connection-factory
 
+> Notice: Debezium SQL Server Connector doesn't suport connection factory for the moment. See the PR https://github.com/debezium/debezium/pull/2699 for more details.
+
 ## Usage
 
 1. Update `build.gradle` to the debezium version you are using. Build the project:
