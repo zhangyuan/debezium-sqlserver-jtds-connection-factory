@@ -10,7 +10,7 @@
 
 2. Unzip the the `.tar` file under `build/distributions`, and move it to debezium sqlserver connector's directory.
 
-3. Use the following configuration to create the connector:
+3. Use the following configurations (and other normal configurations) to create the connector:
 
 ```properties
 connector.class=io.debezium.connector.sqlserver.SqlServerConnector
